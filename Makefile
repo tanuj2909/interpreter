@@ -4,4 +4,4 @@ build:
 run:
 	@java -cp out com.craftinginterpreters.lox.Lox
 genast:
-	java -cp out com.craftinginterpreters.tools.GenerateAst ./com/craftinginterpreters/lox
+	@java -cp out com.craftinginterpreters.tools.GenerateAst ./com/craftinginterpreters/lox
